@@ -26,16 +26,12 @@ public class Main {
             // On lit le fichier ligne par ligne
             while (lecteur.hasNextLine()) {
 
-                // On lit une ligne complète
                 String ligne = lecteur.nextLine();
 
-                // On sépare la ligne en mots en utilisant l'espace comme délimiteur
                 String[] mots = ligne.split(" ");
 
-                // On compte les mots de cette ligne
                 int motsParLigne = mots.length;
 
-                // On ajoute au total
                 totalMots = totalMots + motsParLigne;
                 totalLignes = totalLignes + 1;
 
