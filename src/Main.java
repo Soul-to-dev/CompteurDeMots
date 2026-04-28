@@ -1,22 +1,17 @@
 import java.io.File;
 import java.util.Scanner;
 
-// Classe principale du compteur de mots
 public class Main {
 
     public static void main(String[] args) {
 
-        // Le nombre total de mots dans le fichier
         int totalMots = 0;
 
-        // Le nombre de lignes lues
         int totalLignes = 0;
 
         try {
-            // On crée un objet File qui pointe vers notre fichier texte
             File fichier = new File("texte.txt");
 
-            // On crée un Scanner pour lire le fichier ligne par ligne
             Scanner lecteur = new Scanner(fichier);
 
             System.out.println("=== Compteur de Mots ===");
@@ -46,7 +41,6 @@ public class Main {
             System.out.println("Nombre total de mots : " + totalMots);
 
         } catch (Exception e) {
-            // Si le fichier n'est pas trouvé on affiche une erreur
             System.out.println("Erreur : fichier introuvable !");
             System.out.println(e.getMessage());
         }
