@@ -1,0 +1,8 @@
+Bonjour et bienvenue dans ce programme Java.
+Ce programme permet de compter le nombre de mots dans un fichier texte.
+Java est un langage de programmation orienté objet.
+Le comptage de mots est une fonctionnalité très utile.
+Nous allons lire ce fichier ligne par ligne.
+Chaque ligne sera séparée par des espaces pour compter les mots.
+Ce projet est réalisé dans le cadre d'un exercice de programmation.
+Bonne chance à tous les étudiants qui travaillent sur ce projet.
